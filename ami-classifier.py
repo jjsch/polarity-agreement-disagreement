@@ -8,6 +8,8 @@ import sys
 import re
 import random
 
+from nltk.metrics import scores
+
 from sklearn.naive_bayes import BernoulliNB as Bayes
 from nltk.classify.scikitlearn import SklearnClassifier
 from sklearn import svm
@@ -502,9 +504,10 @@ for k in range(0,cval):
             testsets['NEG'].add(j)
 
     n += 1
-    p =  nltk.metrics.precision(refsets['NEG'],testsets['NEG'])
-    r =  nltk.metrics.recall(refsets['NEG'],testsets['NEG'])
-    f =  nltk.metrics.f_measure(refsets['NEG'],testsets['NEG'])
+    p =  scores.precision(refsets['NEG'],testsets['NEG'])
+    r =  scores.recall(refsets['NEG'],testsets['NEG'])
+    f =  scores.f_measure(refsets['NEG'],testsets['NEG'])
+
     try:
         prec += p
         recall += r
