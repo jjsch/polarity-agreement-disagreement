@@ -1,3 +1,5 @@
 The script requires the CSV data described here:
 
 https://github.com/jjsch/ami-adjacency-pair
+
+It uses the NLTK (http://www.nltk.org/) and scikit learn (http://scikit-learn.org/stable/).
