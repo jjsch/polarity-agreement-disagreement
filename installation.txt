@@ -1,1 +1,3 @@
-The script uses the CSV data and tools described here: https://github.com/jjsch/ami-adjacency-pair
+The script requires the CSV data described here:
+
+https://github.com/jjsch/ami-adjacency-pair
