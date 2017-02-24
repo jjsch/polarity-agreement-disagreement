@@ -4,7 +4,7 @@ https://github.com/jjsch/ami-adjacency-pair
 
 The polarity model implementation assumes that the CSV data is in the directory ./csv
 
-It uses the NLTK (http://www.nltk.org/) and scikit learn (http://scikit-learn.org/stable/).
+The polarity model requires the NLTK (http://www.nltk.org/) and scikit learn (http://scikit-learn.org/stable/).
 
 NLTK requires the Punkt Tokenizer, Stopword Corpus and Averaged Perceptron Tagger. These can be downloaded with the NLTK download tool:
 
