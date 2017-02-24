@@ -1,5 +1,8 @@
 The file as presented runs the model with local features + relative polarity features + sentential parallelism features. Features can be selected by commenting or uncommenting in the "features" method.
 
+$ ls csv/
+ES2002a-trans.csv  ES2010d-trans.csv ...
+
 $ python ami-classifier.py 
 10  validations.
 Average precision:  0.570466290412
